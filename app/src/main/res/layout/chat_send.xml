@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/base_view"
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:background="@drawable/send_chat"
+        android:layout_gravity="right"
+        android:orientation="vertical"
+        android:padding="8dp">
+    <TextView
+        android:id="@+id/message"
+        android:text="Hi, my message"
+        android:background="@drawable/send_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="left"
+        android:textSize="@dimen/chat_text_size"
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/margin_toolbar"
+        />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/time_of_message"
+        android:text="12:00 PM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/date_text"
+        android:layout_gravity="right"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">chat</string>
+    <string name="your_message">Your message</string>
+    <string name="save">Save</string>
+</resources>
